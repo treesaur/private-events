@@ -1,0 +1,10 @@
+<h1>WELCOME</h1>
+<h2>EVENTS</h2>
+
+<% @events.includes(:name).each do |evt| %>
+  <ul>
+    <li>
+      <%= evt.name %>
+    </li>
+  </ul>
+<% end %>
