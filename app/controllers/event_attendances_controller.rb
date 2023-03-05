@@ -1,0 +1,3 @@
+class EventAttedancesController < ApplicationController
+
+end

@@ -1,5 +1,8 @@
 <h1>Event Details</h1>
 
 <%= @event.name %><br>
-<%= 'Date:' @event.date %><br>
-<%= 'Location:' @event.location %>
+Date: <%= @event.date %><br>
+Location: <%= @event.location %>
+
+<br><br>
+<%= link_to "Home page", root_path %>
